@@ -1,0 +1,94 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://enemies/chaser/script/chaser.gd" type="Script" id=2]
+[ext_resource path="res://enemies/global/script/enemy_ui.gd" type="Script" id=3]
+[ext_resource path="res://enemies/chaser/img/skull.png" type="Texture" id=4]
+[ext_resource path="res://enemies/global/scene/impact_hit_fx.tscn" type="PackedScene" id=5]
+[ext_resource path="res://enemies/global/scene/center_hit_fx.tscn" type="PackedScene" id=6]
+[ext_resource path="res://enemies/global/script/oneshotfx.gd" type="Script" id=7]
+
+[sub_resource type="ShaderMaterial" id=8]
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 80, 88 )
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 54.5, 66.5 )
+
+[node name="chaser" type="KinematicBody2D" groups=["enemy"]]
+collision_layer = 4
+collision_mask = 52
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+maxlife = 5
+maxspeed = 500
+ded_sprite = ExtResource( 4 )
+pain = 15
+impact_fx = ExtResource( 5 )
+center_fx = ExtResource( 6 )
+rush_agro = 400
+Ngibs = 5
+drop_moeda = 5
+
+[node name="Sprite" type="Sprite" parent="."]
+material = SubResource( 8 )
+texture = ExtResource( 4 )
+
+[node name="Area2D" type="Area2D" parent="." groups=["chaser", "enemy"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 5 )
+
+[node name="enemy_ui" type="Control" parent="."]
+margin_left = -32.0
+margin_top = -198.0
+margin_right = 8.0
+margin_bottom = -158.0
+script = ExtResource( 3 )
+
+[node name="ProgressBar" type="TextureProgress" parent="enemy_ui"]
+margin_top = 38.0
+margin_right = 64.0
+margin_bottom = 102.0
+max_value = 10.0
+value = 10.0
+allow_greater = true
+allow_lesser = true
+texture_under = ExtResource( 1 )
+texture_progress = ExtResource( 1 )
+tint_under = Color( 0.627451, 0.627451, 0.627451, 1 )
+tint_progress = Color( 1, 0, 0, 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -4.5, 1.5 )
+shape = SubResource( 9 )
+
+[node name="VisibilityNotifier2D" type="VisibilityEnabler2D" parent="."]
+position = Vector2( 10.4743, 12.3077 )
+scale = Vector2( 1, 1.23077 )
+rect = Rect2( -75, -75, 130, 130 )
+pause_animations = false
+freeze_bodies = false
+pause_particles = false
+pause_animated_sprites = false
+
+[node name="OneShotFX" type="Node2D" parent="."]
+script = ExtResource( 7 )
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="OneShotFX"]
+position = Vector2( 0, 80 )
+emitting = false
+amount = 16
+one_shot = true
+explosiveness = 1.0
+fixed_fps = 60
+scale_amount = 20.0
+color = Color( 1, 0.733333, 0, 1 )
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+avoidance_enabled = true
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]

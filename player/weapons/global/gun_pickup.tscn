@@ -1,0 +1,81 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://player/img/Diana Raptor 4.png" type="Texture" id=1]
+[ext_resource path="res://player/weapons/global/gun_pickup.gd" type="Script" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 43.3861
+
+[sub_resource type="Gradient" id=4]
+offsets = PoolRealArray( 0, 0.537879, 0.886364, 1 )
+colors = PoolColorArray( 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0 )
+
+[sub_resource type="Animation" id=5]
+resource_name = "Nova Animação"
+length = 3.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.5, 3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 20.0, -20.0, 20.0 ]
+}
+
+[sub_resource type="Animation" id=6]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+
+[node name="Sprite" type="Sprite"]
+scale = Vector2( 1.7, 1.7 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 1 )
+
+[node name="CPUParticles2D2" type="CPUParticles2D" parent="."]
+amount = 50
+lifetime = 1.5
+explosiveness = 0.83
+randomness = 1.0
+lifetime_randomness = 0.3
+local_coords = false
+spread = 180.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 80.0
+angular_velocity = 500.0
+angular_velocity_random = 1.0
+orbit_velocity = -0.2
+damping = 200.0
+damping_random = 0.5
+angle = 100.0
+scale_amount = 7.0
+color = Color( 1, 0, 0, 1 )
+color_ramp = SubResource( 4 )
+hue_variation = 1.0
+hue_variation_random = 1.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+"anims/Nova Animação" = SubResource( 5 )
+anims/RESET = SubResource( 6 )
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]

@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://player/weapons/revolver/script/gun.gd" type="Script" id=2]
+[ext_resource path="res://player/img/Diana Raptor 4.png" type="Texture" id=3]
+[ext_resource path="res://player/scene/Cursor.tscn" type="PackedScene" id=4]
+
+[node name="gun" type="Node2D"]
+script = ExtResource( 2 )
+bullet_speed = 3500.0
+alt_bullet_speed = 2000.0
+Pcadency = 0.5
+Scadency = 0.6
+dmg = 6.0
+alt_dmg = 3.0
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 50, -11 )
+scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 3 )
+
+[node name="muzzle" type="Node2D" parent="Sprite"]
+position = Vector2( 26, -5 )
+
+[node name="Cursor" parent="." instance=ExtResource( 4 )]

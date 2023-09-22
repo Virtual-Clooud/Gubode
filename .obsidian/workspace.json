@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "df432daddf635502",
+    "type": "split",
+    "children": [
+      {
+        "id": "009abe931a3178ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc28d6bb2718bd47",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "ToDo.md"
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "9d10fd187a5b1711",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Loop.canvas",
+                "viewState": {
+                  "x": -445.5,
+                  "y": 221,
+                  "zoom": 0
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eec8c9376fa58747",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a2fcdce943c2ee1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "958646ff0fc12ae1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "fd054ee051d053ed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9236c5d4a3873cd8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "9db936be4edc7351",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "ec07bb7ecae0697d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c271a0c7a9a107ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b259a86914c8dab4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Loop.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "02b736508218ebd0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Loop.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "04ffd9b4d2f37074",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b1ca5925d9f89a89",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Loop.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir Quick Switcher": false,
+      "graph:Abrir Visualização de diagrama de grafo": false,
+      "daily-notes:Abrir nota de hoje": false,
+      "templates:Inserir templates": false,
+      "command-palette:Abrir paleta de comando": false,
+      "canvas:Create new canvas": false
+    }
+  },
+  "active": "9d10fd187a5b1711",
+  "lastOpenFiles": [
+    "Design FTW.canvas",
+    "Loop.canvas",
+    "ToDo.md",
+    "README.md",
+    "icon.png",
+    "Arquivados/Gameplay.canvas",
+    "Visual.canvas",
+    "Arquivados/Mapa Gubode.canvas",
+    "Arquivados",
+    "addons/github-integration/resources/themes/GitHubTheme.tres.tmp",
+    "addons/github-integration/resources/themes/GitHubTheme-Dark.tres.tmp",
+    "project.godot.tmp",
+    "world/global/scene/combat1.tscn.tmp",
+    "enemies/global/scene/center_hit_fx.tscn",
+    "enemies/global/scene/impact_hit_fx.tscn",
+    "player/Cursor.tscn",
+    "player/scene/dash_particle_fx.tscn",
+    "player/scene/smoke_fx.tscn",
+    "ui/image/header.jpg",
+    "enemies/chaser/img/skull.png",
+    "player/img/circle-hollow.png",
+    "addons/github-integration/resources/user/circle-hollow.png",
+    "circle-hollow.png",
+    "player/circle-hollow.png",
+    "Documento.md",
+    "VERSION.md",
+    "Untitled.md",
+    "player/weapons/Untitled.md",
+    "player/img/rec.png",
+    "ui/image/Pasted image 20230205145737.jpg",
+    "ui/image/playbutton.png",
+    "Elementos.md",
+    "Untitled.canvas",
+    "To-do.md"
+  ]
+}
