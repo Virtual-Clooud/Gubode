@@ -8,34 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fc28d6bb2718bd47",
+            "id": "db79e619417e5201",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "ToDo.md"
-              },
-              "pinned": true
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "2a745993c470c64b",
+        "type": "tabs",
+        "children": [
           {
-            "id": "9d10fd187a5b1711",
+            "id": "8ba14bfc9adf92fa",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Loop.canvas",
+                "file": "Design FTW.canvas",
                 "viewState": {
-                  "x": 188.19156275048718,
-                  "y": 31.188334421180798,
-                  "zoom": -0.40000000000000013
+                  "x": -364.4634794585604,
+                  "y": -2073.463042514228,
+                  "zoom": -0.8829847811145112
                 }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Loop.canvas",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Loop.canvas",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Loop.canvas"
+                "file": "README.md"
               }
             }
           }
@@ -171,16 +176,16 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "9d10fd187a5b1711",
+  "active": "db79e619417e5201",
   "lastOpenFiles": [
     "Design FTW.canvas",
+    "README.md",
+    "Arquivados/Mapa Gubode.canvas",
+    "Arquivados/Gameplay.canvas",
     "Loop.canvas",
     "ToDo.md",
-    "README.md",
     "icon.png",
-    "Arquivados/Gameplay.canvas",
     "Visual.canvas",
-    "Arquivados/Mapa Gubode.canvas",
     "Arquivados",
     "addons/github-integration/resources/themes/GitHubTheme.tres.tmp",
     "addons/github-integration/resources/themes/GitHubTheme-Dark.tres.tmp",
