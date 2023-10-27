@@ -14,7 +14,7 @@ Qnd entra em uma dungeon precisa montar um "construto" com oq tem, ao completar 
 # Lore
 o planeta parou de girar
 50% da população morreu
-O mundo ficou mais pequeno
+	O mundo ficou mais pequeno
 Uma super-potencia imperial deseja expandir o máximo possível
 Wide-West: Território livre que, região do planeta habitável, alvo das nações sobreviventes e do reino
 Rei: Fanático pelo progresso que teve um filho que morreu
@@ -35,7 +35,7 @@ tesoura grande
 spray-n-pray
 harpão
 ## Feitiços
-Ruboiks cube
+Rubiks cube
 360 no scope
 # Inimigos
 ## Arquétipos

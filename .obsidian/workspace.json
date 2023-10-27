@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "009abe931a3178ac",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "db79e619417e5201",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "2a745993c470c64b",
         "type": "tabs",
         "children": [
@@ -29,14 +11,9 @@
             "id": "8ba14bfc9adf92fa",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "kanban",
               "state": {
-                "file": "Design FTW.canvas",
-                "viewState": {
-                  "x": -364.4634794585604,
-                  "y": -2073.463042514228,
-                  "zoom": -0.8829847811145112
-                }
+                "file": "ToDo.md"
               }
             }
           }
@@ -98,8 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ec07bb7ecae0697d",
@@ -115,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "ToDo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "ToDo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "ToDo.md"
               }
             }
           }
@@ -176,10 +152,10 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "db79e619417e5201",
+  "active": "8ba14bfc9adf92fa",
   "lastOpenFiles": [
-    "Design FTW.canvas",
     "README.md",
+    "Design FTW.canvas",
     "Arquivados/Mapa Gubode.canvas",
     "Arquivados/Gameplay.canvas",
     "Loop.canvas",
