@@ -11,9 +11,14 @@
             "id": "8ba14bfc9adf92fa",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "canvas",
               "state": {
-                "file": "ToDo.md"
+                "file": "Canvas.canvas",
+                "viewState": {
+                  "x": 602.6606646558246,
+                  "y": -135.71592980974495,
+                  "zoom": 1.1102230246251565e-16
+                }
               }
             }
           }
@@ -91,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ToDo.md",
+                "file": "Canvas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ToDo.md",
+                "file": "Canvas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ToDo.md"
+                "file": "Canvas.canvas"
               }
             }
           }
@@ -154,18 +159,20 @@
   },
   "active": "8ba14bfc9adf92fa",
   "lastOpenFiles": [
-    "README.md",
     "Design FTW.canvas",
+    "Canvas.canvas",
+    "ToDo.md",
+    "VERSION.md",
+    "project.godot.tmp",
+    "Loop.canvas",
+    "addons/github-integration/resources/themes/GitHubTheme.tres.tmp",
+    "addons/github-integration/resources/themes/GitHubTheme-Dark.tres.tmp",
+    "README.md",
     "Arquivados/Mapa Gubode.canvas",
     "Arquivados/Gameplay.canvas",
-    "Loop.canvas",
-    "ToDo.md",
     "icon.png",
     "Visual.canvas",
     "Arquivados",
-    "addons/github-integration/resources/themes/GitHubTheme.tres.tmp",
-    "addons/github-integration/resources/themes/GitHubTheme-Dark.tres.tmp",
-    "project.godot.tmp",
     "world/global/scene/combat1.tscn.tmp",
     "enemies/global/scene/center_hit_fx.tscn",
     "enemies/global/scene/impact_hit_fx.tscn",
@@ -179,14 +186,12 @@
     "circle-hollow.png",
     "player/circle-hollow.png",
     "Documento.md",
-    "VERSION.md",
     "Untitled.md",
     "player/weapons/Untitled.md",
     "player/img/rec.png",
     "ui/image/Pasted image 20230205145737.jpg",
     "ui/image/playbutton.png",
     "Elementos.md",
-    "Untitled.canvas",
     "To-do.md"
   ]
 }

@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"da3e7739bc003622","x":532,"y":-358,"width":250,"height":60,"type":"text","text":""},
+		{"id":"d96e91c2a2f6310c","type":"text","text":"Jogador","x":-400,"y":-120,"width":125,"height":60},
+		{"id":"e5d7eb472bf92350","type":"text","text":"Armas","x":-123,"y":-120,"width":112,"height":60,"color":"1"},
+		{"id":"3a6227e139c02a52","type":"text","text":"Movimento","x":-248,"y":-13,"width":151,"height":60,"color":"3"},
+		{"id":"69a82040be2f9981","type":"text","text":"Secundário","x":100,"y":-43,"width":148,"height":60,"color":"1"},
+		{"id":"8ebfb1f1800ff4a0","type":"text","text":"Primário","x":110,"y":-210,"width":127,"height":60,"color":"1"},
+		{"id":"c479fdf3e61d1360","type":"text","text":"Dash","x":-229,"y":160,"width":102,"height":60,"color":"3"},
+		{"id":"bbf4b6905a2e0073","type":"text","text":"Feitiços","x":-178,"y":-360,"width":121,"height":60,"color":"6"},
+		{"id":"1620d681c7c792a7","type":"text","text":"Mini-Games dentro da partida","x":68,"y":-380,"width":196,"height":60},
+		{"id":"8e526d014a336ae5","x":-346,"y":-300,"width":98,"height":60,"color":"4","type":"text","text":"Vida"}
+	],
+	"edges":[
+		{"id":"9f9f027fa02a5ecb","fromNode":"d96e91c2a2f6310c","fromSide":"right","toNode":"e5d7eb472bf92350","toSide":"left"},
+		{"id":"562d11a263cab67d","fromNode":"d96e91c2a2f6310c","fromSide":"right","toNode":"bbf4b6905a2e0073","toSide":"left"},
+		{"id":"50feed2807770f52","fromNode":"d96e91c2a2f6310c","fromSide":"right","toNode":"3a6227e139c02a52","toSide":"left"},
+		{"id":"105cc889d57ce82e","fromNode":"e5d7eb472bf92350","fromSide":"right","toNode":"8ebfb1f1800ff4a0","toSide":"left","color":"1"},
+		{"id":"78666c4c8404a4f3","fromNode":"e5d7eb472bf92350","fromSide":"right","toNode":"69a82040be2f9981","toSide":"left","color":"1"},
+		{"id":"0c8af9a4ac972bdf","fromNode":"8ebfb1f1800ff4a0","fromSide":"bottom","toNode":"69a82040be2f9981","toSide":"top"},
+		{"id":"5aadf14fc34ac135","fromNode":"69a82040be2f9981","fromSide":"top","toNode":"8ebfb1f1800ff4a0","toSide":"bottom","label":"Sinergia/Estilo de gameplay"},
+		{"id":"959d1c50f51b5c85","fromNode":"bbf4b6905a2e0073","fromSide":"bottom","toNode":"3a6227e139c02a52","toSide":"top","color":"6"},
+		{"id":"e29aea3d040822ba","fromNode":"bbf4b6905a2e0073","fromSide":"bottom","toNode":"e5d7eb472bf92350","toSide":"top","color":"6"},
+		{"id":"8d1c494bb0ac3862","fromNode":"bbf4b6905a2e0073","fromSide":"right","toNode":"1620d681c7c792a7","toSide":"left"},
+		{"id":"6d644450aa10c163","fromNode":"3a6227e139c02a52","fromSide":"bottom","toNode":"c479fdf3e61d1360","toSide":"top","color":"3"},
+		{"id":"ae6ef622beb15d13","fromNode":"d96e91c2a2f6310c","fromSide":"top","toNode":"8e526d014a336ae5","toSide":"bottom"},
+		{"id":"c93f101d7acf27cc","fromNode":"bbf4b6905a2e0073","fromSide":"left","toNode":"8e526d014a336ae5","toSide":"top","color":"6"}
+	]
+}
